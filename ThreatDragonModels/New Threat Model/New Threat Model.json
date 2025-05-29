@@ -1078,6 +1078,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 13,
             "ports": {
               "groups": {
                 "top": {
@@ -1161,7 +1162,6 @@
               ]
             },
             "id": "9e2381c2-9c3e-437d-a306-bc15931102e1",
-            "zIndex": 13,
             "data": {
               "type": "tm.Store",
               "name": "SQL Database",
@@ -1225,9 +1225,40 @@
             "vertices": [
               {
                 "x": 530,
+                "y": 420
+              },
+              {
+                "x": 530,
                 "y": 450
               }
             ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 15,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              "Trust Boundary"
+            ],
+            "id": "fd5e37c9-0367-4bd7-96bc-89cb1d659882",
+            "source": {
+              "x": 370,
+              "y": 300
+            },
+            "target": {
+              "x": 810,
+              "y": 360
+            },
+            "vertices": []
           }
         ],
         "description": "Test Diagram"

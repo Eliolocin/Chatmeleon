@@ -1196,6 +1196,38 @@
                 "denialOfService": 0
               }
             }
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 14,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Generic Trust\nBoundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              "Generic Trust\nBoundary"
+            ],
+            "id": "2c29b406-1b40-4559-96c8-1f003c9f82b5",
+            "source": {
+              "x": 550,
+              "y": 220
+            },
+            "target": {
+              "x": 550,
+              "y": 640
+            },
+            "vertices": [
+              {
+                "x": 530,
+                "y": 450
+              }
+            ]
           }
         ],
         "description": "Test Diagram"
